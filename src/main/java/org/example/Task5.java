@@ -17,7 +17,7 @@ public class Task5 {
 
     public static void main(String[] args) throws InterruptedException {
         String url = "https://onlinetestcase.com/wp-content/uploads/2023/06/1-MB.pdf";
-        String savePath = ".";
+        String savePath = "downloaded_file.bin";
 
         FileDownloadTask downloadTask = new FileDownloadTask(url, savePath);
         System.out.println("Начинаем скачивание...");
